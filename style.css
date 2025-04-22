@@ -1,0 +1,35 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--slate-300);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+.qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+p {
+  color: var(--slate-500);
+}
